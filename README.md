@@ -81,13 +81,14 @@ npm test
 
 ```text
 neatflow/
-├── logs/               # Activity history (auto-generated)
+├── logs/               # Activity history
+│   ├── logs.js         # Logging service
+│   ├── activity.log    # Activity log (auto-generated)
 ├── src/
 │   ├── index.js        # Entry point
 │   ├── config.js       # Environment settings
 │   ├── constants.js    # Extension mappings
 │   ├── fileService.js  # Move logic
-│   ├── logs.js         # Logging service
 │   └── utils.js        # Helper functions
 ├── tests/              # Integration testing
 └── package.json        # Project metadata
@@ -109,4 +110,4 @@ watch/
 
 ---
 
-**Developed with 💻 by [Ayush Negi]**
+**Developed with ❤️ by Ayush Negi**
